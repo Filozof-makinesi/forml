@@ -1,2 +1,2 @@
 # forml
-! [forml-Html](forml/form.html)
+! [forml-Html](form.html)

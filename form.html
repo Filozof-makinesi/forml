@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" type="text/css" href="form.css" /> 
+    <script src="form.js">
+    </script>
+<body>
+<div class="form-box">
+    <div class="login-box">
+      <h4 class="login-text">Giriş</h4>
+      <form id="myForm" name="girisFormu"  method="post">
+      
+        TC: <input id="tc" type="number" name="fname" placeholder="TC" >
+       
+        
+        
+        Adı:<input id="adi" type="text" name="adi" placeholder="Adı">
+      
+       
+        Soyadı:<input id="soyad" type="text" name="soyad" placeholder="Soyadı">
+    
+        Tel No:<input id="tel" type="number" name="tel" placeholder="Tel No">
+      
+        <div class="adres">
+          Adres: <input id="adress" type="text" name="adres" placeholder="Adres">
+      
+        </div>
+        <div class="butt">
+        <input  type="button" onclick="isValid()" value="Gönder!">
+        <input  class="button1" type="button" onclick="sayiuret()" value="Random!">
+      </div>
+        <p id="demo"></p>
+      </form>
+    </div>
+    </div>
+<div class="cevap-form">
+    <div class="cevap-box">
+      <h4 class="login-text"><br>
+      <p id="demo"></p><br>
+      <p name="Adress" id="tc1">Tc:</p><br>
+      <p name="Adıı" id="ad">Adı:</p><br>
+      <p id="soy">Soyadı</p><br>
+      
+      <p id="tel1">Telefon No</p><br>
+      
+      <p name="Adress" id="adress1">Adres:</p><br></h4>
+  
+
+ 
+    </div>
+  </div>
+
+</body>
+</html>
+
